@@ -1,3 +1,8 @@
+
+env = joinpath(@__DIR__, "..", "env")
+push!(LOAD_PATH, joinpath(env, "NCDatasets"))
+push!(LOAD_PATH, joinpath(env, "Random"))
+push!(LOAD_PATH, joinpath(env, "Pkg"))
 using Test
 using MoistThermodynamics
 MT = MoistThermodynamics

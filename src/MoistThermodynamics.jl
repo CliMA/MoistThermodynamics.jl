@@ -11,6 +11,7 @@ using DocStringExtensions
 using RootSolvers
 using CLIMAParameters
 using CLIMAParameters.Planet
+const APS = AbstractParameterSet
 
 @inline q_pt_0(::Type{FT}) where {FT} = PhasePartition{FT}(FT(0), FT(0), FT(0))
 
